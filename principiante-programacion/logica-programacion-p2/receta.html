@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receta</title>
+</head>
+<body>
+    <p>
+        Programa para crear recetas sin repetir ingredientes
+    </p>
+    <br />
+    <P>Solution</P>
+    <br />
+
+    <script>
+        var ingredientes = [];
+        let cantidad = parseInt(prompt("¿Cuántos ingredientes vas a añadir?"));
+        let contador = 1;
+
+        while(contador <= cantidad) {
+            var ingrediente = prompt("Ingresa el ingrediente " + contador);
+            (ingredientes.indexOf(ingrediente) == -1) ? ingredientes.push(ingrediente) : alert("El ingrediente ya existe");
+            contador++;
+        }
+        document.write(`${ingredientes}`);
+    </script>
+</body>
+</html>

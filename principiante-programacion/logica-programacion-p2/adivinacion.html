@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinacion</title>
+</head>
+<body>
+    <p>
+        Programa que adivina un numero del 1 al 10, el usuario solo cuenta con 3 intentos.
+    </p>
+    <br />
+    <p>Solution</p>
+    <br />
+
+    <script>
+        let numeroPensado = Math.round(Math.random()*10);
+        let intentos = 3;
+
+        function saltarLinea() {
+            for (var i = 0; i < 3; i++) {
+                document.write("<br />");
+            }
+        }
+
+        function imprimir(frase) {
+            document.write(frase);
+            saltarLinea();
+        }
+
+        while (intentos >= 0) {
+            var numeroLanzado = parseInt(prompt("Ingrese un número entre 0-10"));
+            if (numeroPensado == numeroLanzado){
+                alert("usted acertó, en el intento " + intentos + " el número pensado era " + numeroPensado);
+                break;
+            }
+            else {
+                alert(`error, le quedan ${intentos} intentos`);
+            }
+            intentos--;
+        }
+        if (numeroPensado == numeroLanzado){
+            imprimir("usted acertó, en el intento " + contador + " el número pensado era " + numeroPensado);
+        }
+        else {
+            imprimir("usted erró, el número pensado era " + numeroPensado);
+        }
+        imprimir("fin");
+    </script>
+</body>
+</html>

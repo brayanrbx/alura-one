@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <p>
+        Programa para simular el inicio de sesión, el usuario tiene 3 intentos
+    </p>
+    <br />
+    <P>Solution</P>
+    <br />
+
+    <script>
+        let inicioDeSesionRegistrado = "alura";
+        let contrasenhaRegistrada = "alura321";
+        let intentos = 3;
+
+        while (intentos >= 0) {
+            let inicioDeSesionIngresado = prompt("Ingrese su usuario");
+            let contrasenhaIngresada = prompt("Ingrese su contraseña");
+
+            if ( inicioDeSesionRegistrado == inicioDeSesionIngresado && contrasenhaRegistrada == contrasenhaIngresada ) {
+                alert("Bienvenido al sistema " + inicioDeSesionIngresado);
+            }
+            else if (intentos == 0) {
+                alert("se ha bloquedo la cuenta");
+
+            }
+            else {
+                alert(`inicio de sesión inválido le quedan ${intentos} intentos. Favor intente de nuevo`);
+            }
+            intentos--;
+        }
+    </script>
+</body>
+</html>
