@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+.body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+/** Header */
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(153, 148, 148);
+}
+
+.header__banner {
+    width: 100%;
+}
+
+.header__banner > img {
+    width: 100%;
+}
+
+.header__logo {
+    width: 50%;
+}
+
+.header__logo img {
+    width: 70px;
+}
+
+.navbar {
+    width: 50%;
+}
+
+.navbar__list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.navbar__items a {
+    color: rgb(61, 59, 59);
+    text-decoration: none;
+}
+
+/** Main */
+.contain {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    background-color: lightgrey;
+}
+
+.contain__title {
+    width: 100%;
+    text-align: center;
+}
+
+.contain__text {
+    text-align: center;
+}
+
+.contain__text :nth-child(2) {
+    color: red;
+}
+
+.contain__items {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contain--color {
+    background-color: #f2f2f2;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2em;
+    margin-left: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin-right: auto;
+    width: 90%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    width: 100%;
+    border: solid;
+    border-radius: 10px;
+}
+
+.card__title h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card__text {
+    text-align: center;
+}
+
+/** Footer  */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+}
+
+.footer__logo img {
+    width: 100px;
+}
+
+.footer__text {
+    color: white;
+}
+
+/** Modifiers */
+.header-product {
+    width: 100%;
+    justify-content: space-between;
+}
+
+/** Pseudo-Class  */
+.navbar__items a:hover {
+    color: rgb(221, 184, 19);
+}
+
+.card:hover {
+    border-color: rgb(221, 184, 19);
+}
+
+.card:active {
+    border-color: rgb(30, 209, 120);
+}
+
+.card:hover .card__title h2{
+    font-size: 33px;
+}
+
+.card__text p:nth-child(2) {
+    font-weight: bold;
+}
