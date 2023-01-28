@@ -29,3 +29,17 @@ Este repositorio contiene los ejercicios propuestos que he realizado en el progr
   - [CSS Grid: Simplificando layouts](https://github.com/brayanrbx/one/tree/main/frontend/frontend-ui/css-grid)
   - [Layouts Responsivos: Trabajando con layouts mobile](https://github.com/brayanrbx/one/tree/main/frontend/frontend-ui/layouts-responsivos)
   - [Arquitectura CSS: Descomplicando los problemas](https://github.com/brayanrbx/one/tree/main/frontend/frontend-ui/arquitectura-css)
+  - [Arquitectura CSS Upgraded: Descomplicando los problemas](https://github.com/brayanrbx/one/tree/main/frontend/frontend-ui/arquitectura-css-upgraded)
+
+- #### JavaScript el lenguaje de la web
+
+  - [JavaScript: primeros pasos con el lenguaje](https://github.com/brayanrbx/one/tree/main/frontend/javascript-lenguaje-web/javascript)
+  - [JS en la Web: Manipulación del DOM con JavaScript](https://github.com/brayanrbx/one/tree/main/frontend/javascript-lenguaje-web/js-en-la-web)
+  - [JS en la Web: Validación de Formularios y HTML5](https://github.com/brayanrbx/one/tree/main/frontend/javascript-lenguaje-web/js-web)
+  - [JavaScript: Introducción a la Orientación a Objetos](https://github.com/brayanrbx/one/tree/main/frontend/javascript-lenguaje-web/js)
+
+- #### Sitios interactivos, integrando JavaScript al Navegador
+
+  - [JavaScript: Herencia e Interfaces en Orientación a Objetos](https://github.com/brayanrbx/one/tree/main/frontend/sitios-interactivos-integrando-javascript-al-navegador/herencia)
+  - [JS en la Web: Almacenando datos en el navegador](https://github.com/brayanrbx/one/tree/main/frontend/sitios-interactivos-integrando-javascript-al-navegador/almacenando-datos)
+  - [JS en la Web: CRUD con JavaScript asíncrono](https://github.com/brayanrbx/one/tree/main/frontend/sitios-interactivos-integrando-javascript-al-navegador/crud)
