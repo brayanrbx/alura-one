@@ -12,4 +12,4 @@ Este curso se divide en 3 partes.
 
 ## Administrando MySQL Server
 
-- [Administrando MySQL Server](https://github.com/brayanrbx/alura-one/tree/main/sql/administracion-mysql)
+- [Administrando MySQL Server](https://github.com/brayanrbx/alura-one/tree/main/sql/administrando-mysql)
