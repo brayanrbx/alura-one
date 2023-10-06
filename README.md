@@ -23,3 +23,7 @@ Este repositorio contiene los ejercicios trabajados en el programa Oracle Next E
 - ### SQL con MySQL Server de Oracle - ONE
 
   - [SQL con MySQL Server de Oracle - ONE](https://github.com/brayanrbx/alura-one/tree/main/sql)
+
+## Challenges
+
+- [Challenges](https://github.com/brayanrbx/alura-one/tree/main/one-challenges)
